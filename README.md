@@ -11,22 +11,7 @@ Este repositório contém o **back-end** da plataforma de e-commerce, responsáv
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia     | Uso                              |
-|----------------|----------------------------------|
-| Node.js        | Runtime                          |
-| Express.js     | Framework web / API REST         |
-| MySQL          | Banco de dados relacional        |
-| mysql2         | Driver MySQL (com promises)      |
-| Joi            | Validação de dados de entrada    |
-| bcryptjs       | Hash de senhas                   |
-| dotenv         | Variáveis de ambiente            |
-| cors           | Cross-Origin Resource Sharing    |
-
----
-
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 inksjar-backend/
@@ -57,7 +42,7 @@ inksjar-backend/
 
 ---
 
-## ⚙️ Configuração e Execução
+## Configuração e Execução
 
 ### 1. Pré-requisitos
 
