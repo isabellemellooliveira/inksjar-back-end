@@ -1,13 +1,6 @@
-# InksJar / Axis3D — Back-end da Plataforma de E-commerce
+# InksJar 
 
-**Projeto Integrador — 3º Ano do Ensino Técnico**  
-**Atividade 4: Desenvolvimento do Back-end e Integração com Banco de Dados**
-
----
-
-## 📌 Sobre o Projeto
-
-A **InksJar Corporation** (também conhecida como **Axis3D Rolamentos**) é uma empresa de tecnologia e design que transforma ideias criativas em objetos reais por meio da modelagem e impressão 3D.  
+A **InksJar Corporation** é uma empresa de tecnologia e design que transforma ideias criativas em objetos reais por meio da modelagem e impressão 3D.  
 
 Este repositório contém o **back-end** da plataforma de e-commerce, responsável por:
 
