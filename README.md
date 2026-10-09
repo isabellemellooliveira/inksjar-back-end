@@ -29,17 +29,21 @@ API responsável por:
 
 ### Passos
 
-1. Clone o repositório:
+1. 
 ```bash
 git clone https://github.com/isabellemellooliveira/inksjar-backend.git
 cd inksjar-backend
 
+2.
 npm install
 
+3.
 cp .env.example .env
 
+4.
 npm run db:init
 
+5.
 npm run dev
 
 Método,Rota,Descrição
