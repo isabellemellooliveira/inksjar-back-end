@@ -1,10 +1,8 @@
-# InksJar - Backend E-commerce
-
-Back-end da plataforma de e-commerce da **InksJar Corporation**, desenvolvido como parte do Projeto Integrador do 3º ano do Ensino Técnico.
+# InksJar
 
 A InksJar é uma empresa de tecnologia e design que utiliza modelagem e impressão 3D para transformar ideias em objetos reais, com foco em personalização e sustentabilidade.
 
-Este projeto implementa a API responsável por:
+API responsável por:
 
 - Cadastro e gestão de produtos e categorias
 - Gerenciamento de clientes
@@ -33,5 +31,35 @@ Este projeto implementa a API responsável por:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU_USUARIO/inksjar-backend.git
+git clone https://github.com/isabellemellooliveira/inksjar-backend.git
 cd inksjar-backend
+
+npm install
+
+cp .env.example .env
+
+npm run db:init
+
+npm run dev
+
+Método,Rota,Descrição
+GET,/api/produtos,Listar produtos
+POST,/api/produtos,Cadastrar produto
+PUT,/api/produtos/:id,Atualizar produto
+DELETE,/api/produtos/:id,Inativar produto
+GET,/api/clientes,Listar clientes
+POST,/api/clientes,Cadastrar cliente
+POST,/api/pedidos,Criar pedido (com baixa de estoque)
+GET,/api/pedidos,Listar pedidos
+
+Regras
+Não permite preço ou estoque negativo
+Não permite e-mails duplicados
+Impede a compra se não houver estoque suficiente
+Baixa automática no estoque ao finalizar o pedido
+Uso de transação no banco para garantir consistência****
+
+Isabelle Helena
+Alice Oliveira
+Beatriz Pereira
+3A
