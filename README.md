@@ -31,5 +31,5 @@ Este projeto implementa a API responsável por:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU_USUARIO/inksjar-backend.git
+git clone https://github.com/isabellemellooliveira/inksjar-backend.git
 cd inksjar-backend
